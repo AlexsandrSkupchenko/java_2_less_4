@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="TOP_CENTER" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <stylesheets>
+        <URL value="@/css/style.css" />
+    </stylesheets>
+    <Button defaultButton="true" onAction="#clickSend" text="Отправить сообщение" GridPane.rowIndex="2" />
+    <TextArea fx:id="textArea" prefWidth="350" GridPane.columnIndex="0" />
+    <TextField fx:id="textField" promptText="input message" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+</GridPane>
